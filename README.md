@@ -1,6 +1,6 @@
 ![banner]
 
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/joshmayerr/agent-toolbox)
+![GitHub License](https://img.shields.io/github/license/mashape/apistatus)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/joshmayerr/agent-toolbox)
 
 # Agent Toolbox
