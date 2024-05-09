@@ -1,8 +1,9 @@
 ![banner]
 
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/joshmayerr/agent-toolbox)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/joshmayerr/agent-toolbox)
 
-API access to collection: [Go!][apiDoc-link] - We also have RSS feeds for [added](https://api.apis.guru/v2/added.rss) and [updated](http://api.apis.guru/v2/list.rss) APIs.
-
+# Agent Toolbox
 An open source registry of useful tools.
 
 What is the Agent Toolbox?
