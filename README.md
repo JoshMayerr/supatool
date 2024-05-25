@@ -4,9 +4,13 @@
 # Open Toolbox
 An open source registry of *useful* tools to be used by autonomous agents.
 
+## Why does this need to exist?
+
+All 
+
 What is the Agent Toolbox?
 --------------------------
-* Registry of first-party tools
+* Registry of first-party tools (ex. Google Calendar, Notion, Spotify, etc.)
 * OpenAPI specifications for all tools
 * Additional metadata to search across tools
 * Langchain and Llamaindex integration (coming soon)
