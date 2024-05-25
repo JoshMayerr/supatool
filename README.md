@@ -2,7 +2,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/joshmayerr/agent-toolbox)
 
 # Open Toolbox
-An open source registry of useful tools.
+An open source registry of useful tools to be used by autonomous agents.
 
 What is the Agent Toolbox?
 --------------------------
