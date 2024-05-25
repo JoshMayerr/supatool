@@ -1,7 +1,7 @@
 ![GitHub License](https://img.shields.io/github/license/mashape/apistatus)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/joshmayerr/agent-toolbox)
 
-# Open Toolbox
+# The Agent Toolbox
 An open source registry of *useful* tools to be used by autonomous agents.
 
 ## Why does this need to exist?
