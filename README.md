@@ -1,9 +1,7 @@
-![banner]
-
 ![GitHub License](https://img.shields.io/github/license/mashape/apistatus)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/joshmayerr/agent-toolbox)
 
-# Agent Toolbox
+# Open Toolbox
 An open source registry of useful tools.
 
 What is the Agent Toolbox?
@@ -25,4 +23,3 @@ All API definitions acquired from public sources under the [Fair use](http://en.
 
 Many of the API specifications are sourced from [apis.guru](https://apis.guru). Thank you for your contributions to the OSS community.
 
-[banner]: /banner.png "Agent Toolbox"
