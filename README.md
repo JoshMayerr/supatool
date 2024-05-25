@@ -10,7 +10,7 @@ What is the Agent Toolbox?
 * OpenAPI specifications for all tools
 * Additional metadata to search across tools
 * Langchain and Llamaindex integration (coming soon)
-* Update definitions on at least a weekly basis
+* Update definitions on at least a weekly basis (coming soon)
 
 Add your own Tools!
 --------------------------
