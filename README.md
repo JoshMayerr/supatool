@@ -1,7 +1,7 @@
 ![GitHub License](https://img.shields.io/github/license/mashape/apistatus)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/joshmayerr/agent-toolbox)
 
-# The 🪄 Supatool Registry
+# The Supatool Registry 🪄
 An open source registry of (super) *useful* tools to be used by autonomous agents.
 
 What is the Supatool Registry?
