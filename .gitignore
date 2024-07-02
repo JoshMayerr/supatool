@@ -1,0 +1,5 @@
+/client/.env
+/client/.venv/
+/client/__pycache__/
+/client/.cache
+.venv

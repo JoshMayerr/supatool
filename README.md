@@ -6,6 +6,13 @@
 # Agent Toolbox
 An open source registry of useful tools.
 
+registryj.json
+
+api.example.com
+- raw-spec.json
+- reduced-spec.json
+- metadata.json
+
 What is the Agent Toolbox?
 --------------------------
 * Registry of first-party tools
