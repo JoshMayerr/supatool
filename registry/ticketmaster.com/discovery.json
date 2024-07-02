@@ -2,7 +2,7 @@
   "openapi": "3.0.0",
   "servers": [
     {
-      "url": "//www.ticketmaster.com/discovery/v2"
+      "url": "https://www.ticketmaster.com/discovery/v2"
     }
   ],
   "info": {

@@ -1,6 +1,7 @@
 {
   "swagger": "2.0",
   "schemes": ["https"],
+  "servers": ["https://api.polygon.io"],
   "host": "api.polygon.io",
   "info": {
     "contact": {
