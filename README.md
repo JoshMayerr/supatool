@@ -15,11 +15,17 @@ The main reason startups choose the browser based path is because it could be mo
 
 That is why the Supatool Registry is trying to build a large catalog of first-party public APIs which can be used as tools by agents. The more people using API-based agents, the better incentive for companies to simply release their OpenAPI specifications and allow agents to use their products as efficiently as possible, by agents.
 
+There are three parts to Supatool:
+1. The Registry
+2. Supatool Search
+3. Example agents (or "clients") that use Supatool
+
 What's inside?
 --------------------------
 * Registry of first-party tools (ex. Google Calendar, Notion, Spotify, etc.)
 * OpenAPI specifications for all tools
 * Additional metadata to search across tools
+* Example agents using langchain
 * Langchain and Llamaindex integration (coming soon)
 * Update definitions on at least a weekly basis (coming soon)
 
