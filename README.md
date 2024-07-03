@@ -1,3 +1,5 @@
+![banner]
+
 ![GitHub License](https://img.shields.io/github/license/mashape/apistatus)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/joshmayerr/agent-toolbox)
 
@@ -31,3 +33,5 @@ All API definitions contributed to project by authors are covered by the [CC01.0
 All API definitions acquired from public sources under the [Fair use](http://en.wikipedia.org/wiki/Fair_use) principle.
 
 Many of the API specifications are sourced from [apis.guru](https://apis.guru). Thank you for your contributions to the OSS community.
+
+[banner]: /banner.png "APIs.guru"
