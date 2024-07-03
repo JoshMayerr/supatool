@@ -33,6 +33,10 @@ Add your own Tools!
 --------------------------
 Documentation coming soon.
 
+Roadmap 🚧
+--------------------------
+- [x] Compile 100+ _good_ raw OpenAPI specs
+
 Licenses
 --------------------------
 All API definitions contributed to project by authors are covered by the [CC01.0](https://creativecommons.org/publicdomain/zero/1.0/) license.<br>
@@ -40,4 +44,4 @@ All API definitions acquired from public sources under the [Fair use](http://en.
 
 Many of the API specifications are sourced from [apis.guru](https://apis.guru). Thank you for your contributions to the OSS community.
 
-[banner]: /banner.png "APIs.guru"
+[banner]: /banner.png "supatool"
