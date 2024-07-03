@@ -36,7 +36,7 @@ Documentation coming soon.
 Roadmap 🚧
 --------------------------
 - [ ] Compile 100+ raw OpenAPI specs
-- [ ] Transform raw specs into indexed/searchable tool format
+- [ ] Transform raw specs into indexed/searchable Supatool format
 - [x] Simple search endpoint that returns tools
 - [x] Example agent that uses search endpoint
 
