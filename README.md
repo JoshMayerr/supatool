@@ -15,10 +15,9 @@ The main reason startups choose the browser based path is because it could be mo
 
 That is why the Supatool Registry is trying to build a large catalog of first-party public APIs which can be used as tools by agents. The more people using API-based agents, the better incentive for companies to simply release their OpenAPI specifications and allow agents to use their products as efficiently as possible, by agents.
 
-There are three parts to Supatool:
+There are two parts to Supatool:
 1. The Registry
-2. Supatool Search
-3. Example agents (or "clients") that use Supatool
+2. Supatool Search (experimental)
 
 What's inside?
 --------------------------
