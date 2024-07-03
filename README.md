@@ -35,7 +35,10 @@ Documentation coming soon.
 
 Roadmap 🚧
 --------------------------
-- [x] Compile 100+ _good_ raw OpenAPI specs
+- [ ] Compile 100+ raw OpenAPI specs
+- [ ] Transform raw specs into indexed/searchable tool format
+- [x] Simple search endpoint that returns tools
+- [x] Example agent that uses search endpoint
 
 Licenses
 --------------------------
