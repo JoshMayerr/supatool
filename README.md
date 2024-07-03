@@ -26,8 +26,7 @@ What's inside?
 * OpenAPI specifications for all tools
 * Additional metadata to search across tools
 * Example agents using langchain
-* Langchain and Llamaindex integration (coming soon)
-* Update definitions on at least a weekly basis (coming soon)
+* Supatool formatting and transformation of OAS (coming soon)
 
 Add your own Tools!
 --------------------------
