@@ -1,0 +1,27 @@
+name: Validate OpenAPI Schemas
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
+      - name: Install OpenAPI Validator
+        run: |
+          pip install openapi-spec-validator
+      - name: Validate OpenAPI Schemas
+        run: |
+          for file in registry/**/*.yaml; do
+            openapi-spec-validator $file || exit 1
+          done

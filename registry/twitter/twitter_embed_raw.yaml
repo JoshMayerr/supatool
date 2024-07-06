@@ -1,0 +1,108 @@
+openapi: 3.0.3
+info:
+  title: Twitter Syndication API
+  description: API for fetching tweets from the Twitter syndication service.
+  version: 1.0.0
+servers:
+  - url: https://cdn.syndication.twimg.com
+    description: Twitter Syndication CDN
+
+paths:
+  /tweet-result:
+    get:
+      summary: Fetch a tweet
+      description: Fetches a tweet from the Twitter syndication API by tweet ID.
+      parameters:
+        - name: id
+          in: query
+          required: true
+          schema:
+            type: string
+            pattern: "^[0-9]+$"
+          description: The ID of the tweet to fetch.
+        - name: lang
+          in: query
+          required: false
+          schema:
+            type: string
+          description: The language in which to fetch the tweet.
+          default: "en"
+        - name: features
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Comma-separated list of feature flags to enable.
+        - name: token
+          in: query
+          required: true
+          schema:
+            type: string
+          description: Token generated from the tweet ID.
+      responses:
+        "200":
+          description: Successfully fetched the tweet.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/Tweet"
+                  tombstone:
+                    type: boolean
+                    description: Indicates if the tweet is a tombstone.
+                  notFound:
+                    type: boolean
+                    description: Indicates if the tweet was not found.
+        "400":
+          description: Invalid tweet ID.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "404":
+          description: Tweet not found.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "500":
+          description: Internal server error.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+components:
+  schemas:
+    Tweet:
+      type: object
+      properties:
+        id:
+          type: string
+        text:
+          type: string
+        user:
+          type: object
+          properties:
+            id:
+              type: string
+            name:
+              type: string
+            screen_name:
+              type: string
+        created_at:
+          type: string
+          format: date-time
+        # Add other Tweet properties as needed
+    ErrorResponse:
+      type: object
+      properties:
+        message:
+          type: string
+        status:
+          type: integer
+        data:
+          type: object
+          additionalProperties: true

@@ -9,6 +9,9 @@
     },
     "version": "3.0.0"
   },
+  "x-source": {
+    "url": "https://www.etsy.com/openapi/generated/oas/3.0.0.json"
+  },
   "servers": [
     {
       "url": "https://openapi.etsy.com",
