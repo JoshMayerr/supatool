@@ -3,3 +3,4 @@
 /client/__pycache__/
 /client/.cache
 .venv
+.github
