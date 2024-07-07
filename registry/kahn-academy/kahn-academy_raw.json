@@ -1,0 +1,48 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Search Khan Academy Content",
+    "description": "Returns a list of Khan Academy content items related to the query",
+    "version": "v1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://khanacademy.org"
+    }
+  ],
+  "x-source": {
+    "url": "https://gptstore.ai/4154d29f-8e83-4bb4-b9a4-8dd206eec5d3"
+  },
+  "paths": {
+    "/api/internal/_rg/khanmigo/search_content": {
+      "get": {
+        "description": "Search Khan Academy Content for related Articles, Videos, Domains, Courses, Units, and Lessons",
+        "operationId": "SearchContent",
+        "parameters": [
+          {
+            "name": "query",
+            "in": "query",
+            "description": "The search query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "referrer",
+            "in": "query",
+            "description": "The GPT making this request. ALWAYS 'gpt-tutorme'",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}
