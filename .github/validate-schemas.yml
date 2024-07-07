@@ -25,3 +25,8 @@ jobs:
           for file in registry/**/*.yaml; do
             openapi-spec-validator $file || exit 1
           done
+      - name: Validate OpenAPI Schemas
+        run: |
+          for file in registry/**/*.json; do
+            openapi-spec-validator $file || exit 1
+          done
