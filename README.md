@@ -29,7 +29,7 @@ What's inside?
 
 Add your own Tools!
 --------------------------
-Documentation coming soon.
+Just make a PR to the /registry directory! (more documentation coming soon)
 
 Roadmap 🚧
 --------------------------
