@@ -1,0 +1,64 @@
+openapi: 3.0.1
+info:
+  title: Arxiv Search Plugin
+  description: A plugin that allows the user to search for papers on arXiv using ChatGPT.
+  version: "v2"
+servers:
+  - url: http://localhost:5004
+paths:
+  /search:
+    post:
+      operationId: search_arxiv
+      summary: Search for papers
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/searchPapersRequest"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/searchPapersResponse"
+        "400":
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/BadRequestResponse"
+
+components:
+  schemas:
+    searchPapersRequest:
+      type: object
+      required:
+        - query
+      properties:
+        query:
+          type: string
+          description: The query to search for papers.
+        limit:
+          type: integer
+          description: The maximum number of papers to return.
+          default: 10
+          minimum: 1
+    searchPapersResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          description: The status of the request.
+        papers:
+          type: array
+          items:
+            type: string
+          description: The list of paper IDs.
+    BadRequestResponse:
+      type: object
+      properties:
+        message:
+          type: string
+          description: A description of the error.
