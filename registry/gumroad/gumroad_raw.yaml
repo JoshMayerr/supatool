@@ -309,6 +309,14 @@ components:
         url:
           type: string
 
+    ErrorResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+        message:
+          type: string
+
   responses:
     BadRequest:
       description: Bad Request
@@ -340,11 +348,3 @@ components:
         application/json:
           schema:
             $ref: '#/components/schemas/ErrorResponse'
-
-    ErrorResponse:
-      type: object
-      properties:
-        success:
-          type: boolean
-        message:
-          type: string
